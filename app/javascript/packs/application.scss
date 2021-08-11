@@ -1,2 +1,41 @@
 // Import Bootstrap v5  
 @import "~bootstrap/scss/bootstrap";
+
+.gravatar {
+    height: 30px;
+    width: auto;
+}
+
+.navbar {
+    min-height: 38px;
+    background-color: #f55e55 !important;
+}
+
+.navbar a.brand {
+    font-size: 18px;
+}
+
+.navbar a.brand:hover {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: #f55e55;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+footer {
+    background-color: #ebebeb;
+    padding: 30px 0;
+}
+
+.container input[type="submit"] {
+    height: 30px;
+    font-size: 13px;
+    background-color: #f55e55;
+    border: none;
+    color: #fff;
+}
