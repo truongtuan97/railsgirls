@@ -50,7 +50,7 @@ test:
 # for a full overview on how database connection configuration can be specified.
 #
 production:
-  <<: *default
+  adapter: mysql2
+  encoding: utf8mb4
   database: railsgirls_production
-  username: railsgirls
-  password: <%= ENV['RAILSGIRLS_DATABASE_PASSWORD'] %>
+  pool: 5
